@@ -1,7 +1,3 @@
-#
-# Conditional build:
-%bcond_without	apidocs		# do not build and package API docs
-#
 Summary:	UIOMux - conflict manager for system resources, including UIO devices
 Summary(pl.UTF-8):	UIOMux - zarządca konfliktów dla zasobów systemowych, w tym urządzeń UIO
 Name:		libuiomux
