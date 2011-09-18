@@ -6,6 +6,7 @@ Release:	1
 License:	LGPL v2+
 Group:		Libraries
 # trailing #/%{name}-%{version}.tar.gz is a hack for df
+#Source0Download: https://oss.renesas.com/modules/document/?libuiomux
 Source0:	https://oss.renesas.com/modules/document/gate.php/?way=attach&refer=libuiomux&openfile=%{name}-%{version}.tar.gz#/%{name}-%{version}.tar.gz
 # Source0-md5:	e348e4b0bc87af75d9a55a89304e6155
 URL:		https://oss.renesas.com/modules/document/?libuiomux
