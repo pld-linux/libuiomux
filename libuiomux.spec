@@ -1,13 +1,13 @@
 Summary:	UIOMux - conflict manager for system resources, including UIO devices
 Summary(pl.UTF-8):	UIOMux - zarządca konfliktów dla zasobów systemowych, w tym urządzeń UIO
 Name:		libuiomux
-Version:	1.6.0
+Version:	1.6.2
 Release:	1
 License:	LGPL v2+
 Group:		Libraries
-# trailing /%{name}-%{version}.tar.gz is a hack for df
-Source0:	https://oss.renesas.com/modules/document/gate.php/?way=attach&refer=libuiomux&openfile=%{name}-%{version}.tar.gz/%{name}-%{version}.tar.gz
-# Source0-md5:	9a4f5025d4cabf40e9a261a978153cdc
+# trailing #/%{name}-%{version}.tar.gz is a hack for df
+Source0:	https://oss.renesas.com/modules/document/gate.php/?way=attach&refer=libuiomux&openfile=%{name}-%{version}.tar.gz#/%{name}-%{version}.tar.gz
+# Source0-md5:	e348e4b0bc87af75d9a55a89304e6155
 URL:		https://oss.renesas.com/modules/document/?libuiomux
 BuildRequires:	doxygen
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
